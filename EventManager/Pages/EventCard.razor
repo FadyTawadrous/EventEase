@@ -1,5 +1,4 @@
-@inject RegestrationModel RegestrationModel
-@inject RegestrationService RegestrationService
+@inject RegistrationService RegistrationService
 
 <div class="event-card">
     <h2>@Event.Name</h2>
@@ -11,26 +10,24 @@
 
 <h3>Regestration Form</h3>
 <p>Please fill out the form below to register for the event.</p>
-<EditForm Model="@regestration" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="@registration" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    @regestration.EventId = @Event.Id;
-
     <div>
         <label for="name">Name:</label>
-        <InputText id="name" @bind-Value="regestration.Name" class="form-control" />
-        <ValidationMessage For="(() => regestration.Name)" />
+        <InputText id="name" @bind-Value="registration.Name" class="form-control" />
+        <ValidationMessage For="(() => registration.Name)" />
     </div>
 
     <div>
         <label for="email">Email:</label>
-        <InputText id="email" @bind-Value="regestration.Email" class="form-control" />
-        <ValidationMessage For="(() => regestration.Email)" />
+        <InputText id="email" @bind-Value="registration.Email" class="form-control" />
+        <ValidationMessage For="(() => registration.Email)" />
     </div>
 
     <button type="submit" class="btn btn-primary">Register</button>
-    <a href="/regestration-list" class="btn btn-link">View Submitted Regestrations</a>
+    <a href="/registration-list" class="btn btn-link">View Submitted Registration</a>
 </EditForm>
 
 
@@ -41,12 +38,14 @@
 
 @code {
     [Parameter] public EventModel Event { get; set; }
-    private RegestrationModel regestration = new();
+    private RegistrationModel registration = new();
     private bool isSubmitted = false;
     private void HandleValidSubmit()
     {
-        RegestrationService.AddEntry(regestration);
-        regestration = new RegestrationModel();
+        registration.EventId = Event.Id;
+        //Console.WriteLine(registration.EventId + " " + registration.Name + " " + registration.Email);
+        RegistrationService.AddEntry(registration);
+        registration = new RegistrationModel();
         isSubmitted = true;
     }
 }

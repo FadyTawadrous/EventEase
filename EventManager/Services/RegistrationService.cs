@@ -3,13 +3,13 @@ using System.Collections.Generic;
 public class RegistrationService
 {
     private List<RegistrationModel> registrationList;
-    public void AddEntry(registrationModel registration)
+    public void AddEntry(RegistrationModel registration)
     {
         if (registrationList == null)
         {
-            registrationList = new List<registrationModel>();
+            registrationList = new List<RegistrationModel>();
         }
         registrationList.Add(registration);
     }
-    public IEnumerable<registrationModel> Getregistrations() => registrationList;
+    public IEnumerable<RegistrationModel> Getregistrations() => registrationList;
 }

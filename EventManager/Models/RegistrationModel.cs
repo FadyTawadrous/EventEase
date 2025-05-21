@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-public class RegistrationnModel
+public class RegistrationModel
 {
     public int EventId { get; set; }
 

@@ -1,25 +1,32 @@
 @page "/registration-list"
-@inject registrationService registrationService
+@inject RegistrationService RegistrationService
 @inject EventService EventService
 
 <h3>Submitted registrations</h3>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Event</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var registration in registrationService.Getregistrations())
-        {
+@if (RegistrationService.Getregistrations() == null)
+{
+    <p>No registrations found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
             <tr>
-                <td>@registration.Name</td>
-                <td>@registration.Email</td>
-                <td>@EventService.GetEvents()[registration.EventId]</td>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Event</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var registration in RegistrationService.Getregistrations())
+            {
+                <tr>
+                    <td>@registration.Name</td>
+                    <td>@registration.Email</td>
+                    <td>@EventService.GetEvents()[(@registration.EventId) - 1].Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
