@@ -1,0 +1,25 @@
+@page "/registration-list"
+@inject registrationService registrationService
+@inject EventService EventService
+
+<h3>Submitted registrations</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Event</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var registration in registrationService.Getregistrations())
+        {
+            <tr>
+                <td>@registration.Name</td>
+                <td>@registration.Email</td>
+                <td>@EventService.GetEvents()[registration.EventId]</td>
+            </tr>
+        }
+    </tbody>
+</table>
