@@ -9,7 +9,7 @@ public class EventService
     public List<EventModel> GetEvents() => events;
     public EventModel GetEventById(int id)
     {
-        if (id >= 0 && id < events.Count)
+        if (id >= 0 && id <= events.Count)
         {
             return events.FirstOrDefault(e => e.Id == id);
         }
