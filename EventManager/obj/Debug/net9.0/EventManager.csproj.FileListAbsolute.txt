@@ -811,7 +811,6 @@ D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\scopedcss\bundle\EventMa
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\scopedcss\projectbundle\EventManager.bundle.scp.css
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\blazor.build.boot-extension.json
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\blazor.boot.json
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\t57lubsjoj-8rbvw3on5j.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\mlpi4x1l6z-cnqpg2xc2l.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\oprs6i504d-bqjiyaj88i.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\fjoirb5u2x-c2jlpeoesf.gz
@@ -1075,10 +1074,12 @@ D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\EventManager.dll
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\refint\EventManager.dll
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\EventManager.pdb
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\ref\EventManager.dll
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.asmjl072w4.pdb
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.9ju7ir5t2u.wasm
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.9ju7ir5t2u.wasm.gz
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.asmjl072w4.pdb.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\10yfktgu1q-9ju7ir5t2u.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\sushzv4kok-asmjl072w4.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\eisdf56hdx-claqd7t54w.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\iggme7u5ev-fw6ur2bus0.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\t57lubsjoj-dgvz0winw6.gz
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.cc1x437w91.pdb
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.cihozoqkqj.wasm
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.cihozoqkqj.wasm.gz
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.cc1x437w91.pdb.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\10yfktgu1q-cihozoqkqj.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\sushzv4kok-cc1x437w91.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\eisdf56hdx-9gxljsr93o.gz
