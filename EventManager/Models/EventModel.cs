@@ -9,6 +9,6 @@ public class EventModel
     public DateTime Date { get; set; }
     public string Location { get; set; }
 
-    [sringLength(500, ErrorMessage = "Description cannot exceed 500 characters")]
+    [StringLength(500, ErrorMessage = "Description cannot exceed 500 characters")]
     public string Description { get; set; }
 }
