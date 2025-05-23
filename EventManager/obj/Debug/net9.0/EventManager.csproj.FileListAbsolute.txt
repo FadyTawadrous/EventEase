@@ -6,8 +6,6 @@ D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\dotne
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.cymp1amu5g.js
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.js.map
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.24j6528hxw.pdb
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.93t08cvzwl.wasm
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
@@ -215,7 +213,6 @@ D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\Syste
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.DispatchProxy.5k0oiq8v01.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Collections.9xsz1b8u5x.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.tkb8mck29g.wasm.gz
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.93t08cvzwl.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Net.NetworkInformation.22njzxzqxw.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Handles.3pucd7hj4u.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XPath.dhry31foc0.wasm.gz
@@ -365,7 +362,6 @@ D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\Syste
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Numerics.fy7c28mkpw.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebClient.495v6rng83.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Net.HttpListener.g1z5na32ay.wasm.gz
-D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.24j6528hxw.pdb.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.ServiceModel.Web.t76w5potav.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\System.Net.Quic.6rpdsd1cky.wasm.gz
 D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.w69ya3jgm7.wasm.gz
@@ -1066,9 +1062,6 @@ D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\4gxsuyg933-4b
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\n28s1o3w1z-tjcz0u77k5.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\y490rtsooh-tptq2av103.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\n911jaof79-lfu7j35m59.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\10yfktgu1q-93t08cvzwl.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\sushzv4kok-24j6528hxw.gz
-D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\eisdf56hdx-htnbcs2rak.gz
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\staticwebassets.build.json
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\staticwebassets.development.json
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1083,3 +1076,10 @@ D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\EventManager.dll
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\refint\EventManager.dll
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\EventManager.pdb
 D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\ref\EventManager.dll
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.fyu7vautis.pdb
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.21c3qviiva.wasm
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.21c3qviiva.wasm.gz
+D:\web-projects\EventEase\EventManager\bin\Debug\net9.0\wwwroot\_framework\EventManager.fyu7vautis.pdb.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\10yfktgu1q-21c3qviiva.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\sushzv4kok-fyu7vautis.gz
+D:\web-projects\EventEase\EventManager\obj\Debug\net9.0\compressed\eisdf56hdx-hlkhpzsm28.gz

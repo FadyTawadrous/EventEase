@@ -1,3 +1,4 @@
+@using Microsoft.AspNetCore.Components.Forms
 @inject RegistrationService RegistrationService
 
 <div class="event-card">
@@ -8,7 +9,7 @@
 </div>
 <br>
 
-<h3>Regestration Form</h3>
+<h3>Registration Form</h3>
 <p>Please fill out the form below to register for the event.</p>
 <EditForm Model="@registration" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />

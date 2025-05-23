@@ -11,5 +11,5 @@ public class RegistrationService
         }
         registrationList.Add(registration);
     }
-    public IEnumerable<RegistrationModel> Getregistrations() => registrationList;
+    public IEnumerable<RegistrationModel> GetRegistrations() => registrationList;
 }

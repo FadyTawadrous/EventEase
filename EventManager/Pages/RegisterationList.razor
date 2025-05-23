@@ -4,7 +4,7 @@
 
 <h3>Submitted registrations</h3>
 
-@if (RegistrationService.Getregistrations() == null)
+@if (RegistrationService.GetRegistrations() == null)
 {
     <p>No registrations found.</p>
 }
@@ -19,7 +19,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var registration in RegistrationService.Getregistrations())
+            @foreach (var registration in RegistrationService.GetRegistrations())
             {
                 <tr>
                     <td>@registration.Name</td>
