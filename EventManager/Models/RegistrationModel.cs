@@ -9,4 +9,6 @@ public class RegistrationModel
 
     [EmailAddress(ErrorMessage = "Invalid email address")]
     public string Email { get; set; }
+
+    public bool IsAttending { get; set; }
 }

@@ -11,4 +11,8 @@ public class EventModel
 
     [StringLength(500, ErrorMessage = "Description cannot exceed 500 characters")]
     public string Description { get; set; }
+
+    public int TotalAttendees { get; set; } = 0;
+
+    public int TrackedAttendees { get; set; } = 0;
 }

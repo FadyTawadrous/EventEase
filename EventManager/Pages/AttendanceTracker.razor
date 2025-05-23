@@ -1,0 +1,51 @@
+@page "/attendance-tracker"
+@inject RegistrationService RegistrationService
+@inject EventService EventService
+
+@code {
+    private void RegisterAttendance(RegistrationModel registration, object value)
+    {
+        bool isChecked = (bool)value; // Convert event value to bool
+        registration.IsAttending = isChecked;
+
+        // Update event attendee count dynamically
+        var eventItem = EventService.GetEvents().FirstOrDefault(e => e.Id == registration.EventId);
+        if (eventItem != null)
+        {
+            eventItem.TrackedAttendees = RegistrationService.GetRegistrations().Where(r => r.EventId == eventItem.Id &&
+            r.IsAttending).Count();
+        }
+    }
+
+}
+
+<h2>Attendance Tracker</h2>
+@if (RegistrationService.GetRegistrations() == null || EventService.GetEvents() == null)
+{
+    <p>No registrations found.</p>
+}
+else
+{
+    <h3>Event List</h3>
+    <ul>
+        @foreach (var eventItem in EventService.GetEvents())
+        {
+            <li>
+                <h3>@eventItem.Name</h3>
+                <p><strong>Registered Attendee:</strong>@eventItem.TrackedAttendees / @eventItem.TotalAttendees</p>
+                @foreach (var registration in RegistrationService.GetRegistrations())
+                {
+                    if (registration.EventId == eventItem.Id)
+                    {
+                    <li>
+                        <input type="checkbox" checked="@registration.IsAttending"
+                            @onchange="(e) => RegisterAttendance(registration, e.Value)" />
+                        <span id="attendance">Name: @registration.Name Email: @registration.Email Is Attending:
+                            @registration.IsAttending</span>
+                    </li>
+                }
+            }
+            </li>
+        }
+    </ul>
+}

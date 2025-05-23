@@ -6,6 +6,7 @@
     <p>@Event.Description</p>
     <p><strong>Date:</strong> @Event.Date.ToShortDateString()</p>
     <p><strong>Location:</strong> @Event.Location</p>
+    <p><strong>Registered Attendees:</strong> @Event.TotalAttendees</p>
 </div>
 <br>
 
@@ -44,6 +45,7 @@
     private void HandleValidSubmit()
     {
         registration.EventId = Event.Id;
+        Event.TotalAttendees++;
         //Console.WriteLine(registration.EventId + " " + registration.Name + " " + registration.Email);
         RegistrationService.AddEntry(registration);
         registration = new RegistrationModel();
